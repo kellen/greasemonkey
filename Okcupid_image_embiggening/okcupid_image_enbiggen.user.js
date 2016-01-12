@@ -6,7 +6,7 @@
 // @grant		       none
 // ==/UserScript==
 
-var debug = false;
+var debug = true;
 var replace = new RegExp("images/[^/]*/[^/]*");
 var dimre = new RegExp("(?:images/[^/]*/[^/]*/[^/]*/)([^x]*)x([^/]*)");
 
@@ -19,9 +19,9 @@ function log(str) {
 Zepto(document).ready(function(){
 	log("RUNNING!");
 	var id = "okc_img_gallery";
-	Zepto('div#action_footer').after('<div id="' + id + '"></div>');
+	Zepto('div.morePhotos2015').after('<div id="' + id + '"></div>');
 	var gal = Zepto('#' + id);
-	Zepto('#profile_thumbs img').each(function(){
+  var callback = function(){
 		log("ok image!");
 		var url = Zepto(this).attr('src');
 		log("found url: " + url);
@@ -36,5 +36,7 @@ Zepto(document).ready(function(){
 		url = url.replace(replace, "images/160x160/1500x1500");
 		log("new url: " + url);
 		gal.append('<img src="' + url + '"><br>');
-	});
+	};
+	Zepto('.morePhotos2015-photos-photo img').each(callback);
+	Zepto('.userinfo2015-thumb img').each(callback);
 });
