@@ -1,0 +1,242 @@
+<UserScriptConfig>
+	<Script basedir="lexin_accesskey" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="add accesskey to lexin box" enabled="true" filename="lexin_accesskey.user.js" installTime="1329806613767" modified="1227027074000" name="lexin accesskey" namespace="omgkellen" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="87090042-ae39-4f70-b06d-e6798fc274ba" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://lexin.nada.kth.se/cgi-bin/sve-eng</Include>
+	</Script>
+	<Script basedir="imdblinks" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Adds IMDb search links to film list" enabled="true" filename="imdblinks.user.js" installTime="1329806613840" modified="1236653244000" name="IMDb Links in Rogers Video Direct" namespace="http://stephen-cross.blogspot.com/" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="1d5f1f4a-c976-4026-9a32-b79616928b7a" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://193.15.197.33/FMPro?*</Include>
+	</Script>
+	<Script basedir="askme_question_pad" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Helps you keep track of questions you want to ask later" enabled="true" filename="askme_question_pad.user.js" installTime="1329806613989" modified="1256126432000" name="AskMe Question Pad" namespace="http://plutor.org/" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="d36d6595-f284-443e-9ac8-f70a7ad948bc" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://ask.metafilter.com/*</Include>
+	</Script>
+	<Script basedir="metafilter_unicorn_submi" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Makes the submit button be a unicorn" enabled="false" filename="metafilter_unicorn_submi.user.js" installTime="1329806614020" modified="1262978944000" name="MetaFilter unicorn submit button" namespace="" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="e2539257-9552-4143-b448-debe81d24a0a" version="1.0" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://*metafilter.com/*</Include>
+	</Script>
+	<Script basedir="metafilter_fuzzy_hearts" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Change &quot;nn favorites&quot; on Metafilter to other stuff" enabled="false" filename="metafilter_fuzzy_hearts.user.js" installTime="1329806614293" modified="1263745980000" name="MetaFilter Fuzzy Hearts" namespace="http://userscripts.org/" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="8d0a0ab4-f698-4dae-bb12-93cfec42b7dd" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://metafilter.com/*</Include>
+		<Include>http://*.metafilter.com/*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="metafilter_brackets_remo" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Removes brackets for meta shit on metafilter" enabled="false" filename="metafilter_brackets_remo.user.js" installTime="1329806614388" modified="1263745630000" name="Metafilter brackets remover" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="782992c0-beee-45a0-8c02-5cb03cbea103" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://metafilter.com/*</Include>
+		<Include>http://*.metafilter.com/*</Include>
+	</Script>
+	<Script basedir="blocket_image_embiggenin" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="false" filename="blocket_image_embiggenin.user.js" installTime="1329806614442" modified="1295393650000" name="blocket image embiggening" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="d6cc4d27-47cf-4bfb-947a-62fc6da942e8" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://www.blocket.se/*</Include>
+	</Script>
+	<Script basedir="noads_blocket" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Remove ads from blocket.se" enabled="false" filename="noads_blocket.user.js" installTime="1329806614452" modified="1270369254000" name="noads_blocket" namespace="www.edholm.com/grease" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="16043769-990d-42dc-a25e-55e22df8c6d1" version="2010-03-12 12:50" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://www.blocket.se/*</Include>
+	</Script>
+	<Script basedir="blocket_hide_posts" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="true" filename="blocket_hide_posts.user.js" installTime="1329806614534" modified="1314515218000" name="blocket hide posts" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="63fae7d0-86c9-452e-839c-8cad6dad23b7" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://www.blocket.se/*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="hide_text_nodes" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="false" filename="hide_text_nodes.user.js" installTime="1329806614723" modified="1275223018000" name="hide text nodes" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="e7be8c55-f8c6-453a-a803-bf0811432050" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="swebank_bostadskostnad_p" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="false" filename="swebank_bostadskostnad_p.user.js" installTime="1329806614819" modified="1292093138000" name="swebank bostadskostnad preload" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="44290d85-70c3-43b8-b1e7-311fcef47a64" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://hemnet.se/beskrivning/*</Include>
+		<Include>http://*.hemnet.se/beskrivning/*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="mefi_navigator" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Navigate users' comments in Metafilter threads." enabled="false" filename="mefi_navigator.user.js" installTime="1329806614870" modified="1278364118000" name="MeFi Navigator" namespace="http://www.metafilter.com/" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="059b2848-66a0-4a03-b57e-01ba59c154ae" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://*.metafilter.com/*</Include>
+		<Include>http://metafilter.com/*</Include>
+	</Script>
+	<Script basedir="hemnet_prices" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="false" filename="hemnet_prices.user.js" installTime="1329806615035" modified="1284240820000" name="Hemnet prices" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="57db0adb-2500-43f9-8e0a-6a402ebce4c7" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://kartor.eniro.se/hemnet*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="chess_at_work_ad_skip" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="true" filename="chess_at_work_ad_skip.user.js" installTime="1329806615083" modified="1284298584000" name="Chess at work ad skip" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="2e60fddb-6b26-46cb-aa9f-7782aa1ccf98" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://chessatwork.com/*</Include>
+		<Include>http://*.chessatwork.com/*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="blocket_hide_posts_by_ca" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="false" filename="blocket_hide_posts_by_ca.user.js" installTime="1329806615147" modified="1314521544000" name="blocket hide posts by category" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="417e85bb-1dee-4477-abb3-4adbb8131ec8" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://www.blocket.se/*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="metropol_image_embiggen" checkRemoteUpdates="1" dependhash="ff3ce6a4314d2287e70030863a802452fb771e8b" description="" enabled="true" filename="metropol_image_embiggen.user.js" installTime="1329806615201" modified="1285176366000" name="metropol image embiggen" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="c05f8ab4-24c6-4bf0-981b-dc76fff40138" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://www.metropol.se/*</Include>
+		<Require filename="jquery.js"/>
+	</Script>
+	<Script basedir="quotefixer" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="false" filename="quotefixer.user.js" installTime="1329806615448" modified="1285181910000" name="quotefixer" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="72e8c6f8-50da-4ce7-a4d8-75dbb0624166" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://www.secularhumanism.org/library/fi/mcelroy_17_4.html</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="nytimes_ad_skipper" checkRemoteUpdates="1" dependhash="ff3ce6a4314d2287e70030863a802452fb771e8b" description="" enabled="false" filename="nytimes_ad_skipper.user.js" installTime="1329806615487" modified="1292703010000" name="nytimes ad skipper" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="1c17a6d7-a7dc-4e33-bb8a-bcaec5086369" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://nytimes.com/*</Include>
+		<Include>http://www.nytimes.com/*</Include>
+		<Include>http://*.nytimes.com/*</Include>
+		<Require filename="jquery.js"/>
+	</Script>
+	<Script basedir="metacritic_pirate_bay_in" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="true" filename="metacritic_pirate_bay_in.user.js" installTime="1329806615537" modified="1401292673013" name="Metacritic pirate bay integration" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="e3765577-5ad1-4893-bf68-a617440f31d6" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://www.metacritic.com/movie/*</Include>
+		<Include>http://*.metacritic.com/movie/*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="nytimes_adfree_slideshow" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="false" filename="nytimes_adfree_slideshow.user.js" installTime="1329806615647" modified="1301079826000" name="nytimes adfree slideshows" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="9cf1d864-5337-4e51-a6aa-86ab63035eec" version="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://*.nytimes.com/interactive*</Include>
+		<Include>http://nytimes.com/interactive*</Include>
+	</Script>
+	<Script basedir="ucsd_libraries_add_pdf_l" checkRemoteUpdates="1" dependhash="bb00d718396e0c70aa7302d2c35a57eeec216608" description="" enabled="false" filename="ucsd_libraries_add_pdf_l.user.js" installTime="1329806615767" modified="1308169898000" name="ucsd libraries add PDF links" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="89337bc0-62cb-4f66-b077-7cfb73b3060b" version="null" installurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/ucsd-libraries-pdf-link.user.js" updateurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/ucsd-libraries-pdf-link.user.js">
+		<Grant>none</Grant>
+		<Include>https://libraries.ucsd.edu/apps/public/*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script author="Delvin" basedir="bypass_youtube_age_verif" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="This script bypasses YouTube age verification without logging in." enabled="true" filename="bypass_youtube_age_verif.user.js" installTime="1329806615833" modified="1323721340000" name="Bypass YouTube age verification" namespace="delvin@userscripts.org" noframes="false" runAt="document-end" updateMetaStatus="fail" uuid="c7b9a07f-a709-4110-bddd-809c6690452b" version="1.2" installurl="http://userscripts.org/scripts/source/94184.user.js" updateurl="http://userscripts.org/scripts/source/94184.user.js">
+		<Grant>none</Grant>
+		<Include>http://youtube.com/verify_age*</Include>
+		<Include>http://www.youtube.com/verify_age*</Include>
+		<Include>https://youtube.com/verify_age*</Include>
+		<Include>https://www.youtube.com/verify_age*</Include>
+	</Script>
+	<Script basedir="banned-domains_filter_fo" checkRemoteUpdates="1" dependhash="bb00d718396e0c70aa7302d2c35a57eeec216608" description="" enabled="true" filename="banned-domains_filter_fo.user.js" installTime="1329806615906" modified="1435788489106" name="banned-domains filter for metafilter" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="5af44a7a-b91c-4fd6-96d1-9c572c0e6cd3" version="null" installurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/nytimes_filter_for_metaf.user.js" updateurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/nytimes_filter_for_metaf.user.js">
+		<Grant>none</Grant>
+		<Include>http://*.metafilter.com/</Include>
+		<Include>http://*.metafilter.com/index.cfm*</Include>
+		<Require filename="jquerymin.js"/>
+	</Script>
+	<Script basedir="sartorialist" checkRemoteUpdates="1" dependhash="a2815d65e75f3bae8adce2985bbb4c0466fa7d19" description="" enabled="true" filename="sartorialist.user.js" installTime="1329806615976" modified="1315176620000" name="sartorialist" namespace="USH" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="2716bf59-05dd-40ff-a32b-ef9f99f48181" version="null" installurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/PROGRAMMING/greasemonkey/sartorialist.user.js" updateurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/PROGRAMMING/greasemonkey/sartorialist.user.js">
+		<Grant>none</Grant>
+		<Include>http://thesartorialist.com/*</Include>
+		<Include>http://www.thesartorialist.com/*</Include>
+		<Require filename="jquerymin.js"/>
+		<Require filename="jqueryscrollto-142-min.js"/>
+	</Script>
+	<Script basedir="bordwell_next_paragraph" checkRemoteUpdates="1" dependhash="a2815d65e75f3bae8adce2985bbb4c0466fa7d19" description="" enabled="true" filename="bordwell_next_paragraph.user.js" installTime="1329806616032" modified="1321485984000" name="bordwell next paragraph" namespace="USH" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="607067a3-a546-4e14-a29c-b4c2f7b795cb" version="null" installurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/bordwell_nextpara.user.js" updateurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/bordwell_nextpara.user.js">
+		<Grant>none</Grant>
+		<Include>http://www.davidbordwell.net/blog/*</Include>
+		<Include>http://davidbordwell.net/blog/*</Include>
+		<Require filename="jquerymin.js"/>
+		<Require filename="jqueryscrollto-142-min.js"/>
+	</Script>
+	<Script basedir="nytimes_reg_bypass" checkRemoteUpdates="1" dependhash="bddaf2c75c79b04cb07e8b0c36d36c06f3ce40a9" description="" enabled="false" filename="nytimes_reg_bypass.user.js" installTime="1330621665502" modified="1383257456628" name="nytimes reg bypass" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="277e565e-c341-419c-a5e8-ab04e107bcbb" version="null" installurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/nytimes_reg_bypass.user.js" updateurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/nytimes_reg_bypass.user.js">
+		<Grant>none</Grant>
+		<Include>http://nytimes.com/*</Include>
+		<Include>http://www.nytimes.com/*</Include>
+		<Include>http://*.nytimes.com/*</Include>
+		<Include>https://nytimes.com/*</Include>
+		<Include>https://www.nytimes.com/*</Include>
+		<Include>https://*.nytimes.com/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="studentboet_load_everything." checkRemoteUpdates="1" dependhash="bb00d718396e0c70aa7302d2c35a57eeec216608" description="" enabled="false" filename="studentboet.user.js" installTime="1341232151238" modified="1341632340000" name="studentboet load everything." namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="d049b066-72a5-4adf-87ce-a6ea8cac1f8f" version="null" installurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/studentboet.user.js" updateurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/studentboet.user.js">
+		<Grant>none</Grant>
+		<Include>http://portal.studentboet.se/en/plugins/bostadsmotorn/search-and-order/8/5/4</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="tumblr_scrollkeys" checkRemoteUpdates="1" dependhash="a2815d65e75f3bae8adce2985bbb4c0466fa7d19" description="" enabled="true" filename="scrolling-tumblr.user.js" installTime="1347703143834" modified="1445467996508" name="tumblr scrollkeys" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="bfa867c6-ca06-42ab-b7a6-3d4a89cf4f54" version="null" installurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/scrolling-tumblr.user.js" updateurl="file:///C:/Documents%20and%20Settings/User/Skrivbord/scrolling-tumblr.user.js">
+		<Grant>none</Grant>
+		<Include>http://www.androgynousgirls.com/*</Include>
+		<Include>http://androgynousgirls.com/*</Include>
+		<Include>http://*.tumblr.com</Include>
+		<Include>http://*.tumblr.com/</Include>
+		<Include>http://tumblr.com/*</Include>
+		<Include>http://*.tumblr.com/*</Include>
+		<Require filename="jquery.min.js"/>
+		<Require filename="jquery.scrollTo-1.4.2-min.js"/>
+	</Script>
+	<Script basedir="IMDBpiratebay_integration" checkRemoteUpdates="1" dependhash="323d9eeba93981ea8175a6b2e7dc9af460fd3cdf" description="" enabled="true" filename="imdb_piratebay_links.user.js" installTime="1378151522768" modified="1402770359071" name="IMDB/piratebay integration" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="bb244e3f-80f9-4c8f-95a9-be52a675b60a" version="null" installurl="file:///C:/Users/User/Desktop/imdb_piratebay_links.user.js" updateurl="file:///C:/Users/User/Desktop/imdb_piratebay_links.user.js">
+		<Grant>none</Grant>
+		<Include>/^https?://(www\.)?imdb\.com/title/tt[0-9]*(/(\?.*)?)?$/</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="nytimes_multitrack_fake" checkRemoteUpdates="1" dependhash="bddaf2c75c79b04cb07e8b0c36d36c06f3ce40a9" description="" enabled="false" filename="nytimes_multitrack.user.js" installTime="1381475013133" modified="1381475010078" name="nytimes multitrack fake" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="b7bcae4d-4168-428c-8a4f-e72b844313ce" version="null" installurl="file:///C:/Users/User/Desktop/nytimes_multitrack.user.js" updateurl="file:///C:/Users/User/Desktop/nytimes_multitrack.user.js">
+		<Grant>none</Grant>
+		<Include>http://nytimes.com/*</Include>
+		<Include>http://www.nytimes.com/*</Include>
+		<Include>http://*.nytimes.com/*</Include>
+		<Include>https://nytimes.com/*</Include>
+		<Include>https://www.nytimes.com/*</Include>
+		<Include>https://*.nytimes.com/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Opensubtitles_english_default" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="" enabled="true" filename="opensubtitle_english_default.user.js" installTime="1382214653951" modified="1382214650875" name="Opensubtitles english default" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="fail" uuid="df02290c-4521-4200-b205-f253773e62f3" version="null" installurl="http://cretin.net/~kellen/greasemonkey/opensubtitle_english_default.user.js" updateurl="http://cretin.net/~kellen/greasemonkey/opensubtitle_english_default.user.js">
+		<Grant>none</Grant>
+		<Include>http://opensubtitles.org/*</Include>
+		<Include>http://*.opensubtitles.org/*</Include>
+	</Script>
+	<Script basedir="IMDBblu-ray.com_integration" checkRemoteUpdates="1" dependhash="323d9eeba93981ea8175a6b2e7dc9af460fd3cdf" description="" enabled="true" filename="bluraycom_piratebay_links.user.js" installTime="1384690524970" modified="1384778919883" name="IMDB/blu-ray.com integration" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="e834b5c2-a9f2-4b2e-b1b9-a1b4d1a45c39" version="null" installurl="file:///C:/Users/User/Desktop/bluraycom_piratebay_links.user.js" updateurl="file:///C:/Users/User/Desktop/bluraycom_piratebay_links.user.js">
+		<Grant>none</Grant>
+		<Include>/^https?://(www\.)?blu-ray\.com/movies/[^/]*/[0-9]*/?$/</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Huffpo_(and_others)_link_hider" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="false" filename="huffpo_hide.user.js" installTime="1386875245954" modified="1387477181407" name="Huffpo (and others) link hider" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="2b5921ec-1736-4ad4-881e-ee36e162e3df" version="null" installurl="file:///C:/Users/User/Desktop/huffpo_hide.user.js" updateurl="file:///C:/Users/User/Desktop/huffpo_hide.user.js">
+		<Grant>none</Grant>
+		<Include>*</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="Stackoverflow_kill_low_scores" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="true" filename="so_hide_low_users.user.js" installTime="1386875528358" modified="1426430376259" name="Stackoverflow kill low scores" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="7b740f6b-2793-48a6-9c06-3fd8db5af6cb" version="null" installurl="file:///C:/Users/User/Desktop/so_hide_low_users.user.js" updateurl="file:///C:/Users/User/Desktop/so_hide_low_users.user.js">
+		<Grant>none</Grant>
+		<Include>http://stackoverflow.com/</Include>
+		<Include>http://stackoverflow.com/questions</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="piratebay_seed_sort" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="true" filename="piratebay_seed_sort.user.js" installTime="1387054516385" modified="1403630970338" name="piratebay seed sort" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="b33846e3-0353-4f14-9478-3f74dc9a46af" version="null" installurl="file:///C:/Users/User/Desktop/piratebay_seed_sort.user.js" updateurl="file:///C:/Users/User/Desktop/piratebay_seed_sort.user.js">
+		<Grant>none</Grant>
+		<Include>http://*.thepiratebay.*/*</Include>
+		<Include>http://thepiratebay.*/*</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="Youtube_kill_users_from_suggestions" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="true" filename="youtube_hide_users.user.js" installTime="1389292330357" modified="1389292326317" name="Youtube kill users from suggestions" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="a51762ff-4792-4891-923b-8e91b7a4c9f6" version="null" installurl="file:///C:/Users/User/Desktop/youtube_hide_users.user.js" updateurl="file:///C:/Users/User/Desktop/youtube_hide_users.user.js">
+		<Grant>none</Grant>
+		<Include>/https?://(www.)?youtube.(se|com)/*/</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="Disable_adblock_layer_hider" checkRemoteUpdates="1" dependhash="323d9eeba93981ea8175a6b2e7dc9af460fd3cdf" description="" enabled="false" filename="disable_adblock.user.js" installTime="1395740549254" modified="1404563031371" name="Disable adblock layer hider" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="171821c4-cc30-402f-94db-64aed4276584" version="null" installurl="file:///C:/Users/User/Desktop/disable_adblock.user.js" updateurl="file:///C:/Users/User/Desktop/disable_adblock.user.js">
+		<Grant>none</Grant>
+		<Include>*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Lauritz_fix_watchlist" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="false" filename="lauritz.user.js" installTime="1407611737141" modified="1407611733878" name="Lauritz fix watchlist" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="d04d3ad8-2170-443c-ac0f-60640ce40491" version="null" installurl="file:///C:/Users/User/Desktop/lauritz.user.js" updateurl="file:///C:/Users/User/Desktop/lauritz.user.js">
+		<Grant>none</Grant>
+		<Include>/https?://(www\.)?lauritz.com/.*/</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="Malmo_events_hide_museums" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="true" filename="malmo_hide_museums.user.js" installTime="1437246629537" modified="1443864503159" name="Malmo events hide museums" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="2428bac4-f3e7-4d53-84c7-4bcaa3e888f3" version="null" installurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/malmo_hide_museums.user.js" updateurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/malmo_hide_museums.user.js">
+		<Grant>none</Grant>
+		<Include>/^https?://evenemang\.malmo\.se/sv/evenemang.*$/</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="Youtube_change_logo_link" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="true" filename="youtube_change_logo_link.user.js" installTime="1437506120628" modified="1440929398025" name="Youtube change links" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="b293d2b1-3ad9-43e3-a259-d361de21a4bf" version="null" installurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/youtube_change_logo_link.user.js" updateurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/youtube_change_logo_link.user.js">
+		<Grant>none</Grant>
+		<Include>/https?://(www.)?youtube.(se|com)/*/</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="Okcupid_image_embiggening" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="true" filename="okcupid_image_enbiggen.user.js" installTime="1438801294987" modified="1438802070794" name="Okcupid image embiggening" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="2d648b22-498d-4fb6-b3f8-c3e0cd4b93d6" version="null" installurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/okcupid_image_enbiggen.user.js" updateurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/okcupid_image_enbiggen.user.js">
+		<Grant>none</Grant>
+		<Include>http://www.okcupid.com/profile/*</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="IMDB_ratings_inline" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="false" filename="imdb_inline_ratings.user.js" installTime="1439402660492" modified="1439402699354" name="IMDB ratings inline" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="a6c0dde8-727c-4ee5-913c-c2488adf7be8" version="null" installurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/imdb_inline_ratings.user.js" updateurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/imdb_inline_ratings.user.js">
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Include>*</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+	<Script basedir="darken_site" checkRemoteUpdates="1" dependhash="75a45f214057ad8b85ccd17e9acc12f441aff0fb" description="" enabled="false" filename="invert_background_colors.user.js" installTime="1446910259552" modified="1446986501902" name="darken site" namespace="http://userscripts.org/users/fake" noframes="false" runAt="document-end" updateMetaStatus="unknown" uuid="6716136d-0a0f-41d6-8e37-9a2c76ee9f90" version="null" installurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/invert_background_colors.user.js" updateurl="file:///C:/Users/User/Desktop/MISC/GREASEMONKEY/invert_background_colors.user.js">
+		<Grant>none</Grant>
+		<Include>*</Include>
+		<Require filename="zepto.min.js"/>
+	</Script>
+</UserScriptConfig>
