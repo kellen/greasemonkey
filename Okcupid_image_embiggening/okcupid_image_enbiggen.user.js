@@ -19,11 +19,14 @@ function log(str) {
 Zepto(document).ready(function(){
 	log("RUNNING!");
 	var id = "okc_img_gallery";
-	Zepto('div.morePhotos2015').after('<div id="' + id + '"></div>');
+	Zepto('div.essays2015').after('<div id="' + id + '"></div>');
 	var gal = Zepto('#' + id);
   var callback = function(){
 		log("ok image!");
-		var url = Zepto(this).attr('src');
+		var url = Zepto(this).attr('data-src');
+		url = url.length > 0 ? url : Zepto(this).attr('src'); // fall back on data-src
+    if(url.length == 0) return;
+		
 		log("found url: " + url);
 		url = url.replace(/\/2\//, "/1/");
 		/*
